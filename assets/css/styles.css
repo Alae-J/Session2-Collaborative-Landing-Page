@@ -86,22 +86,6 @@ hr {
   margin-bottom: 50px;
 }
 
-.image-1 {
-  background-image: url("https://images.unsplash.com/photo-1505852903341-fc8d3db10436?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=e2f72e62d5f4f04256dd9305d5f51f3c");
-}
-
-.image-2 {
-  background-image: url("https://images.unsplash.com/photo-1475483768296-6163e08872a1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=20b3b1c3caef8c619ac3c75c07a7eafb");
-}
-
-.image-3 {
-  background-image: url("https://images.unsplash.com/photo-1490576198307-6ff97609a0cc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=a0dbd168637edc2cfdac3715ab23d519");
-}
-
-.image-4 {
-  background-image: url("https://images.unsplash.com/photo-1505483531331-fc3cf89fd382?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=4f305bbc0243f81f1bf6053a62d76297");
-}
-
 section h3.title {
   text-transform: capitalize;
   font: bold 48px "Amatic SC", sans-serif;
@@ -166,6 +150,7 @@ header nav li {
   GOAL: Full-screen banner with centered content.
 
   RESOURCES:
+  - Background image: ../images/HeroImage.jpg
   - Text color: #fff
   - H1 font-size: 72px, family: "Amatic SC", sans-serif
   - H1 margin-bottom: 15px
@@ -175,14 +160,14 @@ header nav li {
   - Button padding: 20px 46px
 
   YOUR TASK:
-  Center the content vertically and style the text.
+  Add the background image and center the content vertically and style the text.
   The section already has display: flex from base.
 ============================================*/
 
 .hero {
   /* position: ; */
   min-height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1505535162959-9bbcb4ab22d6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce");
+  /* background-image: url(); */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -213,28 +198,44 @@ header nav li {
 }
 
 /*==========================================
-  TEAM 3 - DESTINATIONS & PACKAGES
+  TEAM 3 - DESTINATIONS GALLERY
 
-  PART A - DESTINATIONS GALLERY
+  GOAL: Create an image gallery with different sized items.
+
   RESOURCES:
+  - Gallery images:
+    - .image-1: ../images/Gallery1.jpg
+    - .image-2: ../images/Gallery2.jpg
+    - .image-3: ../images/Gallery3.jpg
+    - .image-4: ../images/Gallery4.jpg
   - Item height: 350px
   - Item padding: 20px
   - Small flex-basis: 30%
   - Large flex-basis: 70%
 
-  PART B - PACKAGES GRID
-  RESOURCES:
-  - Icon color: #e07e7b
-  - Card padding: 50px
-  - Card flex-basis: 50%
-  - Heading font-size: 30px
-  - Heading margin: 25px 0
-
   YOUR TASK:
-  Create the image gallery and package card layouts.
+  Add background images to .image-1 through .image-4 classes
+  and set the appropriate flex-basis for small and large items.
 ============================================*/
 
 /* DESTINATIONS */
+
+/* Background images for destination gallery */
+.image-1 {
+  /* background-image: url(); */
+}
+
+.image-2 {
+  /* background-image: url(); */
+}
+
+.image-3 {
+  /* background-image: url(); */
+}
+
+.image-4 {
+  /* background-image: url(); */
+}
 
 .destinations .grid li {
   background-size: cover;
@@ -252,6 +253,23 @@ header nav li {
 .destinations .grid li.large {
   /* flex-basis: %; */
 }
+
+/*==========================================
+  TEAM 4 - PACKAGES SECTION
+
+  GOAL: Create a service card grid with icons and descriptions.
+
+  RESOURCES:
+  - Icon color: #e07e7b
+  - Card padding: 50px
+  - Card flex-basis: 50%
+  - Heading font-size: 30px
+  - Heading margin: 25px 0
+
+  YOUR TASK:
+  Style the package cards with proper spacing, centered text,
+  and colored icons. Each card should take 50% width.
+============================================*/
 
 /* PACKAGES */
 
@@ -272,7 +290,9 @@ header nav li {
 }
 
 /*==========================================
-  TEAM 4 - TESTIMONIALS, CONTACT & FOOTER
+  TEAM 5 - TESTIMONIALS & CONTACT FORM
+
+  GOAL: Style customer testimonials and create an email subscription form.
 
   PART A - TESTIMONIALS
   RESOURCES:
@@ -291,17 +311,9 @@ header nav li {
   - Input min-width: 250px
   - Button padding: 18px 42px
 
-  PART C - FOOTER
-  RESOURCES:
-  - Background color: #555
-  - Text color: #fff
-  - Icon margin-left: 16px
-  - Text font-size: 14px
-  - Text opacity: 0.6
-  - Text margin: 10px 0
-
   YOUR TASK:
-  Style quotes, create form layout, distribute footer.
+  Style the testimonial quotes with proper typography and spacing.
+  Create a flexible form layout where the input stretches and button stays fixed.
 ============================================*/
 
 /* TESTIMONIALS */
@@ -341,6 +353,24 @@ header nav li {
 .contact form .btn {
   /* padding: px px; */
 }
+
+/*==========================================
+  TEAM 6 - FOOTER
+
+  GOAL: Create a footer with social icons and copyright text.
+
+  RESOURCES:
+  - Background color: #555
+  - Text color: #fff
+  - Icon margin-left: 16px
+  - Text font-size: 14px
+  - Text opacity: 0.6
+  - Text margin: 10px 0
+
+  YOUR TASK:
+  Use flexbox to distribute footer content evenly across the width.
+  Center items vertically and style the social icons horizontally.
+============================================*/
 
 /* FOOTER */
 
