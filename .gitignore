@@ -1,0 +1,12 @@
+# Solution file - keep this as reference, don't commit
+assets/css/styles-solution.css
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
