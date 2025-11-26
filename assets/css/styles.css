@@ -321,7 +321,7 @@ header nav li {
   - Quote spacing: Good top/bottom margin, more at top
   - Author: Smaller than quote, italic style
   - Form width: Should be narrower than full width (try 50-70%)
-  - Form layout: Use flexbox! Input should GROW (check flex property), button stays fixed
+  - Form layout: Use flexbox. Input should GROW, button stays fixed
   - Input padding: Comfortable for typing
   - Input spacing: Right margin to separate from button
   - Min-width: Prevents input from getting too narrow
@@ -329,7 +329,7 @@ header nav li {
 
   YOUR TASK:
   This is the trickiest section! The form needs flexbox with a growing input field.
-  Experiment with the flex property to make the input stretch!
+  Experiment with the flex property to make the input stretch.
 ============================================*/
 
 /* TESTIMONIALS */
@@ -391,7 +391,7 @@ header nav li {
 
   YOUR TASK:
   Use flexbox to distribute content and create a clean footer.
-  Experiment with opacity to make text subtle!
+  Experiment with opacity to make text subtle
 ============================================*/
 
 /* FOOTER */
@@ -423,7 +423,4 @@ footer p {
 
 /*==========================================
   END OF STYLESHEET
-
-  Good luck! Focus on flexbox properties,
-  spacing, and layout!
 ============================================*/
