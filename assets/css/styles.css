@@ -1,6 +1,6 @@
 /*==========================================
   SESSION 2 PROJECT - LANDING PAGE
-  Collaborative Flexbox Exercise
+  Collaborative Exercise
 
   RULES:
   1. Only edit YOUR TEAM's section
@@ -9,7 +9,6 @@
   4. Uncomment properties and fill in values
   5. Test frequently in the browser
 
-  Focus on flexbox, spacing, and layout!
 ============================================*/
 
 /*==========================================
@@ -103,6 +102,7 @@ section p {
 
 /*==========================================
   TEAM 1 - HEADER SECTION
+  DIFFICULTY: Medium-Hard (3/6)
 
   GOAL: Create a navigation bar with logo left,
   nav links right, everything vertically centered.
@@ -110,13 +110,16 @@ section p {
   RESOURCES:
   - Text color: #fff
   - H2 font: "Amatic SC", sans-serif
-  - Header padding: 35px 100px 0
-  - Nav margin-right: -15px
-  - Nav item margin: 0 15px
+
+  HINTS:
+  - Header needs to overlay the hero (check positioning types!)
+  - Padding: moderate top, generous horizontal, no bottom
+  - Nav uses negative margin to align better (experiment!)
+  - Nav items need horizontal spacing only
 
   YOUR TASK:
   Use flexbox to layout the header and navigation.
-  Uncomment properties and fill in the values.
+  Experiment with spacing values until it looks balanced.
 ============================================*/
 
 header {
@@ -146,22 +149,26 @@ header nav li {
 
 /*==========================================
   TEAM 2 - HERO SECTION
+  DIFFICULTY: Hard (2/6)
 
   GOAL: Full-screen banner with centered content.
 
   RESOURCES:
-  - Background image: ../images/HeroImage.jpg
+  - Background image filename: HeroImage.jpg (in images folder)
   - Text color: #fff
-  - H1 font-size: 72px, family: "Amatic SC", sans-serif
-  - H1 margin-bottom: 15px
-  - H3 font-size: 28px, family: "Raleway", sans-serif
-  - H3 font-weight: 300
-  - H3 margin-bottom: 40px
-  - Button padding: 20px 46px
+  - H1 font-family: "Amatic SC", sans-serif
+  - H3 font-family: "Raleway", sans-serif
+
+  HINTS:
+  - Background image: Figure out the relative path from css folder to images folder
+  - Font sizes: H1 should be VERY large, H3 medium-large
+  - Font weight: Values are in hundreds (100, 200, 300... up to 900). 300 is light.
+  - Spacing: Experiment with margins between elements
+  - Button: Needs padding for comfortable clickable area
 
   YOUR TASK:
-  Add the background image and center the content vertically and style the text.
-  The section already has display: flex from base.
+  Add the background image path, center content vertically, and style typography.
+  Make the text sizes feel balanced and impactful!
 ============================================*/
 
 .hero {
@@ -199,23 +206,27 @@ header nav li {
 
 /*==========================================
   TEAM 3 - DESTINATIONS GALLERY
+  DIFFICULTY: Medium (5/6)
 
   GOAL: Create an image gallery with different sized items.
 
   RESOURCES:
-  - Gallery images:
-    - .image-1: ../images/Gallery1.jpg
-    - .image-2: ../images/Gallery2.jpg
-    - .image-3: ../images/Gallery3.jpg
-    - .image-4: ../images/Gallery4.jpg
-  - Item height: 350px
-  - Item padding: 20px
-  - Small flex-basis: 30%
-  - Large flex-basis: 70%
+  - Gallery image filenames (in images folder):
+    - .image-1: Gallery1.jpg
+    - .image-2: Gallery2.jpg
+    - .image-3: Gallery3.jpg
+    - .image-4: Gallery4.jpg
+
+  HINTS:
+  - Background image paths: Same relative path as Team 2
+  - Item height: Should be tall enough to showcase the images
+  - Item padding: Spacing between images (try 15-25px range)
+  - Flex-basis: Small items need less space (around 30%), large items more (around 70%)
+  - Look at the HTML to see which items are .small vs .large!
 
   YOUR TASK:
-  Add background images to .image-1 through .image-4 classes
-  and set the appropriate flex-basis for small and large items.
+  Add background images and experiment with sizing to create
+  an interesting asymmetric gallery layout.
 ============================================*/
 
 /* DESTINATIONS */
@@ -256,19 +267,22 @@ header nav li {
 
 /*==========================================
   TEAM 4 - PACKAGES SECTION
+  DIFFICULTY: Easy (6/6)
 
   GOAL: Create a service card grid with icons and descriptions.
 
   RESOURCES:
   - Icon color: #e07e7b
-  - Card padding: 50px
-  - Card flex-basis: 50%
-  - Heading font-size: 30px
-  - Heading margin: 25px 0
+
+  HINTS:
+  - Card padding: Generous spacing around content (40-60px)
+  - Card flex-basis: Each card should take half the width
+  - Heading size: Medium-large, noticeable but not huge
+  - Heading margin: Vertical spacing only (top and bottom equal)
 
   YOUR TASK:
   Style the package cards with proper spacing, centered text,
-  and colored icons. Each card should take 50% width.
+  and colored icons. Experiment until cards feel balanced!
 ============================================*/
 
 /* PACKAGES */
@@ -291,29 +305,31 @@ header nav li {
 
 /*==========================================
   TEAM 5 - TESTIMONIALS & CONTACT FORM
+  DIFFICULTY: Very Hard (1/6)
 
   GOAL: Style customer testimonials and create an email subscription form.
 
-  PART A - TESTIMONIALS
-  RESOURCES:
-  - Quote font-size: 22px
-  - Quote font-weight: 300
-  - Quote margin: 40px 0 25px
-  - Author font-size: 16px
+  PART A - TESTIMONIALS RESOURCES:
+  (no colors needed)
 
-  PART B - CONTACT FORM
-  RESOURCES:
+  PART B - CONTACT FORM RESOURCES:
   - Input text color: #555
-  - Form width: 60%
-  - Input padding: 15px
-  - Input margin-right: 30px
-  - Input font-size: 18px
-  - Input min-width: 250px
-  - Button padding: 18px 42px
+
+  HINTS:
+  - Quote font-size: Medium, readable for longer text
+  - Font weight: Light weight (remember: values are in hundreds, 300 is light)
+  - Quote spacing: Good top/bottom margin, more at top
+  - Author: Smaller than quote, italic style
+  - Form width: Should be narrower than full width (try 50-70%)
+  - Form layout: Use flexbox! Input should GROW (check flex property), button stays fixed
+  - Input padding: Comfortable for typing
+  - Input spacing: Right margin to separate from button
+  - Min-width: Prevents input from getting too narrow
+  - Button padding: Similar to other buttons on page
 
   YOUR TASK:
-  Style the testimonial quotes with proper typography and spacing.
-  Create a flexible form layout where the input stretches and button stays fixed.
+  This is the trickiest section! The form needs flexbox with a growing input field.
+  Experiment with the flex property to make the input stretch!
 ============================================*/
 
 /* TESTIMONIALS */
@@ -356,20 +372,26 @@ header nav li {
 
 /*==========================================
   TEAM 6 - FOOTER
+  DIFFICULTY: Medium-Easy (4/6)
 
   GOAL: Create a footer with social icons and copyright text.
 
   RESOURCES:
   - Background color: #555
   - Text color: #fff
-  - Icon margin-left: 16px
-  - Text font-size: 14px
-  - Text opacity: 0.6
-  - Text margin: 10px 0
+
+  HINTS:
+  - Padding: Moderate vertical and horizontal
+  - Icon spacing: Left margin for separation between icons
+  - Text size: Small footer text
+  - Text opacity: Semi-transparent (range is 0 to 1, where 1 = fully visible, 0 = invisible)
+  - Text margin: Small vertical spacing only
+  - Footer layout: Use justify-content to spread items evenly across width
+  - Social icons: Display them horizontally in a row
 
   YOUR TASK:
-  Use flexbox to distribute footer content evenly across the width.
-  Center items vertically and style the social icons horizontally.
+  Use flexbox to distribute content and create a clean footer.
+  Experiment with opacity to make text subtle!
 ============================================*/
 
 /* FOOTER */
