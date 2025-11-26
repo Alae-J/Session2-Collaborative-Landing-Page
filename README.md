@@ -21,28 +21,29 @@ This is a collaborative project where teams work together to build a professiona
 Session2Project/
 ├── index.html              # Main HTML structure
 ├── assets/
-│   └── css/
-│       ├── styles.css           # Starter CSS (students fill in values)
-│       └── styles-solution.css  # Complete solution (for reference)
+│   ├── css/                # CSS styling files
+│   └── images/             # Background images
 └── README.md
 ```
 
 ## Team Sections
 
-The landing page is divided into 4 sections:
+The landing page is divided into 6 sections:
 
-1. **Team 1** - Header Navigation (Flexbox layout, positioning)
-2. **Team 2** - Hero Section (Vertical centering, typography)
-3. **Team 3** - Destinations & Packages (Flex-basis, responsive grid)
-4. **Team 4** - Testimonials, Contact & Footer (Form layout, distribution)
+1. **Team 1** - Header Navigation (Flexbox layout, absolute positioning)
+2. **Team 2** - Hero Section (Vertical centering, typography, background images)
+3. **Team 3** - Destinations Gallery (Background images, flex-basis sizing)
+4. **Team 4** - Packages Section (Card layout, centered content)
+5. **Team 5** - Testimonials & Contact Form (Form layout with flex: 1)
+6. **Team 6** - Footer (Horizontal distribution, nested flexbox)
 
 ## Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repo-url>
-cd Session2Project
+git clone https://github.com/Alae-J/Session2-Collaborative-Landing-Page.git
+cd Session2-Collaborative-Landing-Page
 ```
 
 ### 2. Create Your Team Branch
@@ -69,10 +70,12 @@ Open `index.html` in your browser to see your changes. Your section might look i
 ```bash
 git add .
 git commit -m "Complete team 1 header styling"
-git push origin team-1-header
+git push -u origin team-1-header
 ```
 
 Write your own commit message describing what your team accomplished.
+
+**Note:** The `-u` flag sets up tracking for your branch on the first push. After the first push, you can use just `git push`.
 
 ### 6. Merge
 
