@@ -112,7 +112,7 @@ section p {
   - H2 font: "Amatic SC", sans-serif
 
   HINTS:
-  - Header needs to overlay the hero (check positioning types!)
+  - Header needs to float on top of the hero (use absolute positioning)
   - Padding: moderate top, generous horizontal, no bottom
   - Nav uses negative margin to align better (experiment!)
   - Nav items need horizontal spacing only
