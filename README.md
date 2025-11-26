@@ -6,6 +6,12 @@ An instructional CSS project designed for learning Flexbox, Git collaboration, a
 
 This is a collaborative project where teams work together to build a professional landing page. Each team focuses on a specific section of the page, practicing CSS layout techniques while learning Git workflow and team collaboration.
 
+### Final Result Preview
+
+![Final Landing Page](assets/images/final-landing-page.png)
+
+This is what we're building together! Each team will style their section, and when merged, it creates this complete professional landing page.
+
 ## What You'll Learn
 
 - **Flexbox layouts** - horizontal and vertical alignment, flex-basis, flex-wrap
