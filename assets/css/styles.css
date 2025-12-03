@@ -400,28 +400,27 @@ header nav li {
 /* FOOTER */
 
 footer {
-  /* background-color: ; */
-  /* color: ; */
-  /* padding: px px; */
-  /* display: ; */
-  /* align-items: ; */
-  /* justify-content: ; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #555;
+  color: #fff;
+  padding: 20px 0;
 }
 
 footer ul {
-  /* display: ; */
+  display: flex;
 }
 
 footer ul li {
-  /* margin-left: px; */
+  margin-left: 16px;
 }
 
 footer p {
   text-transform: uppercase;
-
-  /* font-size: px; */
-  /* opacity: ; */
-  /* margin: px px; */
+  font-size: 14px;
+  opacity: 0.6;
+  margin: 10px 0;
 }
 
 /*==========================================
