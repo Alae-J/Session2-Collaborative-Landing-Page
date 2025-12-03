@@ -175,36 +175,37 @@ header nav li {
 ============================================*/
 
 .hero {
-  /* position: ; */
+  position:relative ;
   min-height: 100vh;
-  /* background-image: url(); */
+  background-image: url("../images/HeroImage.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
 
-  /* color: ; */
-  /* justify-content: ; */
+  color: white;
+  justify-content:center ;
 }
 
 .hero h1 {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 
-  /* font-size: px; */
-  /* font-family: , sans-serif; */
-  /* margin-bottom: px; */
+  font-size: 50 px;
+  font-family:"Amatic SC" , sans-serif;
+  margin-bottom: 12px;
 }
 
 .hero h3 {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 
-  /* font-size: px; */
-  /* font-family: , sans-serif; */
-  /* font-weight: ; */
-  /* margin-bottom: px; */
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter ;
+  margin-bottom: 15px;
 }
 
 .hero a.btn {
-  /* padding: px px; */
+  padding: 5px 10px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /*==========================================
