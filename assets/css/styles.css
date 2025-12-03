@@ -236,36 +236,37 @@ header nav li {
 
 /* Background images for destination gallery */
 .image-1 {
-  /* background-image: url(); */
+  background-image: url("./../images/Gallery1.jpg");
 }
 
 .image-2 {
-  /* background-image: url(); */
+  background-image: url("../images/Gallery2.jpg");
 }
 
 .image-3 {
-  /* background-image: url(); */
+  background-image: url("../images/Gallery3.jpg");
 }
 
 .image-4 {
-  /* background-image: url(); */
+  background-image: url("../images/Gallery4.jpg");
 }
+
 
 .destinations .grid li {
+  height: 350px;
+  padding: 20px;
+  background-clip: content-box;
   background-size: cover;
   background-position: center;
-  background-clip: content-box;
-
-  /* height: px; */
-  /* padding: px; */
 }
 
+
 .destinations .grid li.small {
-  /* flex-basis: %; */
+  flex-basis: 30%;
 }
 
 .destinations .grid li.large {
-  /* flex-basis: %; */
+  flex-basis: 50%;
 }
 
 /*==========================================
