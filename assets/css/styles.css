@@ -138,7 +138,7 @@ header {
 }
 
 header h2 {
-  /* font-family: , sans-serif; */
+  font-family:sans-serif;
 }
 
 header nav {
@@ -293,18 +293,23 @@ header nav li {
 .packages .grid li {
   text-align: center;
 
-  /* padding: px; */
-  /* flex-basis: %; */
+  padding: 50px;
+  flex-basis: 50%;
 }
 
 .packages .grid li i {
-  /* color: ; */
+  color:#e07e7b ;
 }
 
 .packages .grid li h4 {
-  /* font-size: px; */
-  /* margin: px px; */
+  font-size: 23px;
+  margin: 20px 20px;
 }
+.packages .grid p
+  font-size: 13px;
+  margin: 20px 20px;
+}
+
 
 /*==========================================
   TEAM 5 - TESTIMONIALS & CONTACT FORM
